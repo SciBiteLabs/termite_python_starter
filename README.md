@@ -4,5 +4,5 @@ Example script for making a multipart request to the TERMite API with a file, wi
 
 ## get_termite
 
-Send a request to the TERMite API and return text.
+Send a request to the TERMite API and return annotated text.
 
