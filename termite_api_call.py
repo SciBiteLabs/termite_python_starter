@@ -12,7 +12,7 @@ username = '' #we will give you this on the hackathon day
 password = '' #we will give you this on the hackathon day
 
 
-def get_termite_xml(zipfile, format='medline.xml', output='xml'):
+def get_termite(zipfile, format='medline.xml', output='xml'):
     """
     Function for sending a multipart request to TERMite.
 
@@ -42,4 +42,4 @@ def get_termite_xml(zipfile, format='medline.xml', output='xml'):
     return response.text
 
 
-print(get_termite_xml(testfile))
+print(get_termite(testfile))
